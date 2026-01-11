@@ -44,6 +44,22 @@ li a{
   color: #FD6E0A;
 }
 
+.section-heading{
+  max-width: 827px;
+  text-align: center;
+  margin: 0 auto;
+}
+.section-heading h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.section-heading p{
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
 /* Main Style */
 
 /* Header */
@@ -125,3 +141,30 @@ nav .menu a{
   vertical-align: middle;
 }
 
+/* about Section */
+#about{
+  padding-top: 130px;
+}
+
+#about .about-container{
+  text-align: center;
+  background-color: var(--primary-bg-color);
+  padding: 131px 156px;
+}
+
+#about .about-container .about-info{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 15px;
+}
+
+.about-info .info-card p{
+  font-size: 20px;
+  color: #757575;
+  line-height: 30px;
+}
+.about-info .info-card h4{
+  font-size: 20px;
+  color: #474747;
+  line-height: 30px;
+}
