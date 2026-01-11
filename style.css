@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --primary-bg-color: #FFF8F3;
+  --primary-color: #FD6E0A; 
+}
+
+body{
+  font-family: "Open", sans-serif;
+  font-optical-sizing: auto;
+}  
+
+/* Common Style */
+.special{
+  color: var(--primary-color);
+}
+li a{
+  text-decoration: none;
+}
+.btn{
+   background-color: var(--primary-color);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 36px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Main Style */
+
+/* Header */
+header{
+  background-color: var(--primary-bg-color);
+  /* border: 1px solid red; */
+  padding-top: 50px;;
+}
+nav{
+  width: 71%;
+  max-width: 1140px;
+  /* border: 1px solid blue; */
+  margin:0px auto;
+  display:flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.logo h2{
+  font-size: 45px;
+  font-weight: 800;
+}
+nav .menu{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+nav .menu a{
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* nav .menu button{
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 36px;
+  border: none;
+  border-radius: 5px;
+} */
+
+
