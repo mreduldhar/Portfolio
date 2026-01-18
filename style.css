@@ -134,7 +134,7 @@ nav .menu a{
 
 #banner .banner-img img{
   max-width: 585px;
-  height: 700px;
+  /* height: 700px; */
   vertical-align: middle;
 }
 
@@ -277,4 +277,8 @@ footer .footer-container form input[type="text"], footer .footer-container form 
   border-radius: 5px;
   margin-bottom: 24px;
   color: #757575;
+}
+
+.hide{
+  display: none;
 }
